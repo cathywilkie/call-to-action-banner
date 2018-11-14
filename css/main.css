@@ -28,6 +28,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-grow: 1;
   z-index: 10000000;
   top: 50%;
   left: 0;
