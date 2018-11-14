@@ -38,9 +38,7 @@ body {
 }
 
 .img-mecha {
-  width: 100%;
   display: block;
-  align-items: stretch;
   padding: 1rem;
 }
 
