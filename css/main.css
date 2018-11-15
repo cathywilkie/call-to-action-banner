@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 
 *, *::before, *::after {
@@ -34,6 +34,7 @@ body {
   transform: translateX(-50%) translateY(-50%);
   max-width: 45em;
   width: 100%;
+  padding: 0 1rem;
 }
 
 .banner-info {
@@ -67,7 +68,6 @@ body {
 
 .btn {
   display: inline-block;
-  font-size: 1.125rem;
   font-weight: bold;
   color: #fff;
   padding: .5em .9em;
