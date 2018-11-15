@@ -28,22 +28,29 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-grow: 1;
   z-index: 10000000;
-  top: 50%;
+  top: 0;
   left: 0;
-  transform: translateY(-50%);
+  right: 0;
+  bottom: 0;
+
+  /* transform: translateX(-50%) translateY(-50%); */
   max-width: 45em;
-  margin: 0;
+  margin: auto;
 }
 
-.img-mecha {
+.banner-img {
+  margin-right: 2em;
+}
+
+.banner-img img {
   display: block;
-  padding: 1rem;
+  width: 100%;
 }
 
 .banner-content h2 {
   font-family: "Roboto Condensed", sans-serif;
+  font-weight: lighter;
   font-size: 3rem;
   margin: 0;
 }
@@ -56,6 +63,7 @@ body {
 .btn {
   display: inline-block;
   font-size: 1.125rem;
+  font-weight: bold;
   color: #fff;
   padding: .4em .75em .3em;
   background-color: #333;
