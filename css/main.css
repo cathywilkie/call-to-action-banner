@@ -13,8 +13,8 @@ body {
 }
 
 .img-flex {
-  width: 100%;
   display: block;
+  width: 100%;
 }
 
 .banner {
@@ -27,20 +27,22 @@ body {
   position: absolute;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   z-index: 10000000;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-
-  /* transform: translateX(-50%) translateY(-50%); */
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
   max-width: 45em;
-  margin: auto;
+  width: 100%
+}
+
+.banner-info {
+  width: 60%;
 }
 
 .banner-img {
-  margin-right: 2em;
+  position: relative;
+  width: 35%;
 }
 
 .banner-img img {
